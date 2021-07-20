@@ -562,7 +562,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 72
   m_CollisionDetection: 0
 --- !u!65 &2011319870
 BoxCollider:
@@ -639,8 +639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d6e4627f1027c4991c44cc0ef7229e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedDirectionRotation: 50
-  ForceUp: 50
+  SpeedDirectionRotation: 62.3
+  ForceUp: 18
 --- !u!1 &2101715748
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ GameObject:
   - component: {fileID: 2101715749}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

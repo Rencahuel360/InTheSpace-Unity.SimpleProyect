@@ -68,6 +68,15 @@ namespace CoreNameSpace
                 SceneManager.LoadScene(SceneToLoad);
             }
         }
+        public static void ResetOnlyScene()
+        {
+            string ActualScene = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(ActualScene);
+        }
+        public static void ResetOnlyScene(string SceneToLoad)
+        {
+            SceneManager.LoadScene(SceneToLoad);
+        }
 
     }
 }
